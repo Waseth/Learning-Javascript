@@ -5,7 +5,7 @@ In this repo, I'll be mainly sharing my **JavaScript learning progress** from a 
 
 ## Progress Log
 
-### Day 1 – Getting Started
+### Day 1 – Getting Started(18th August 2025 - 19th August 2025)
 Today, I learned about **data types** and **variables** in JavaScript.
 
 #### Data Types (so far)
@@ -39,9 +39,9 @@ Today, I learned about **data types** and **variables** in JavaScript.
   ---
 
   - I have also complete these five challenges: https://github.com/zachgoll/fullstack-roadmap-series/tree/main/code-challenges.
-  - You can check out my solutions on the various JS files I have created on this repo under variables section.
+  - You can check out my solutions on the various JS files I have created on this repo under the Variables and data types folder.
 
-  
+
 
 
 
