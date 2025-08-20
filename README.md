@@ -42,6 +42,100 @@ Today, I learned about **data types** and **variables** in JavaScript.
   - You can check out my solutions on the various JS files I have created on this repo under the Variables and data types folder.
 
 
+# Learning JavaScript – Day 2 (August 21st)
+
+Today, I focused on **operators in JavaScript**, specifically:
+
+1. **Arithmetic Operators**  
+2. **Assignment Operators**  
+3. **Comparison Operators**  
+4. **Logical Operators**
+
+---
+
+##  1. Arithmetic Operators
+Used to perform basic math operations:
+
+```js
+let x = 10;
+let y = 3;
+
+console.log(x + y); // 13
+console.log(x - y); // 7
+console.log(x * y); // 30
+console.log(x / y); // 3.3333
+console.log(x % y); // 1
+console.log(x ** y); // 1000
+````
+
+---
+
+## 2. Assignment Operators
+
+Assignment operators are used to **assign values to variables**, often combining assignment with other operations:
+
+| Operator | Explanation                                                        | Example      | Result           |
+| -------- | ------------------------------------------------------------------ | ------------ | ---------------- |
+| `=`      | Assigns a value to a variable                                      | `let a = 5;` | `a` is `5`       |
+| `+=`     | Adds a value to the variable and assigns the result                | `a += 3;`    | `a = a + 3 → 8`  |
+| `-=`     | Subtracts a value from the variable and assigns the result         | `a -= 2;`    | `a = a - 2 → 6`  |
+| `*=`     | Multiplies the variable by a value and assigns the result          | `a *= 2;`    | `a = a * 2 → 12` |
+| `/=`     | Divides the variable by a value and assigns the result             | `a /= 4;`    | `a = a / 4 → 3`  |
+| `%=`     | Takes the remainder of division and assigns it                     | `a %= 2;`    | `a = a % 2 → 1`  |
+| `**=`    | Raises the variable to the power of a value and assigns the result | `a **= 3;`   | `a = a ** 3 → 1` |
+
+Example in practice:
+
+```js
+let a = 5;
+
+a += 3;  // a = 8
+a -= 2;  // a = 6
+a *= 2;  // a = 12
+a /= 4;  // a = 3
+a %= 2;  // a = 1
+a **= 3; // a = 1
+```
+
+---
+
+## 3. Comparison Operators
+
+Used to compare values, returning `true` or `false`:
+
+```js
+console.log(5 == '5');  // true (loose equality)
+console.log(5 === '5'); // false (strict equality)
+console.log(10 != 5);   // true
+console.log(10 !== '10'); // true
+console.log(7 > 3);     // true
+console.log(3 < 7);     // true
+console.log(5 >= 5);    // true
+console.log(4 <= 2);    // false
+```
+
+---
+
+## 4. Logical Operators
+
+Used to combine or invert conditions:
+
+```js
+let isSunny = true;
+let isWarm = false;
+
+console.log(isSunny && isWarm); // false (AND)
+console.log(isSunny || isWarm); // true (OR)
+console.log(!isSunny);          // false (NOT)
+```
+
+- There are five challenges I have completed.You can find them under the Operators folder 
+
+
+ 
+    
+
+
 
 
 
