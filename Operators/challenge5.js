@@ -21,5 +21,5 @@ const result =
 
 // 100 * 5 > 150 * 2
 
-// result evaluates to true
 console.log(result);
+// result evaluates to true
