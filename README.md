@@ -46,9 +46,9 @@ Today, I learned about **data types** and **variables** in JavaScript.
 
 Today, I focused on **operators in JavaScript**, specifically:
 
-1. **Arithmetic Operators**  
-2. **Assignment Operators**  
-3. **Comparison Operators**  
+1. **Arithmetic Operators**
+2. **Assignment Operators**
+3. **Comparison Operators**
 4. **Logical Operators**
 
 ---
@@ -129,11 +129,96 @@ console.log(isSunny || isWarm); // true (OR)
 console.log(!isSunny);          // false (NOT)
 ```
 
-- There are five challenges I have completed.You can find them under the Operators folder 
+- There are five challenges I have completed.You can find them under the Operators folder
+
+---
 
 
- 
-    
+### Day 3 – Conditionals, Loops & Functions (22nd August 2025)
+
+Today, I learned **conditionals, loops, and functions** in JavaScript.
+
+#### 1. Conditionals
+- **If-else** (basic syntax and formatting)
+- **Else if** chains for multiple conditions
+- **Switch statements** for cleaner multi-condition logic
+
+Example:
+
+```js
+let score = 85;
+
+if (score >= 90) {
+  console.log("A");
+} else if (score >= 75) {
+  console.log("B");
+} else {
+  console.log("C");
+}
+
+// Switch example
+let fruit = "apple";
+switch(fruit) {
+  case "apple":
+    console.log("Red fruit");
+    break;
+  case "banana":
+    console.log("Yellow fruit");
+    break;
+  default:
+    console.log("Unknown fruit");
+}
+````
+
+---
+
+#### 2. Loops
+
+* Learned **for loops** (structure and formatting)
+
+```js
+
+for (let i = 0; i < 5; i++) {
+  console.log("Number:", i);
+}
+```
+
+---
+
+#### 3. Functions
+
+* **Function format & syntax**
+* **How to call functions**
+* **Immediately Invoked Functions (IIFE)**
+* **Parameters & arguments**
+* **Scopes** (global vs local)
+* **Anonymous functions stored in variables**
+* **Arrow functions**
+* **Return values** (I initially confused this with `console.log`but I later came to understand the difference)
+* **Built-in JS functions** (found in documentation)
+
+Examples:
+
+```js
+// Regular function
+function greet(name) {
+  return "Hello, " + name;
+}
+console.log(greet("Waseth"));
+
+// Immediately invoked function
+(function() {
+  console.log("This runs immediately!");
+})();
+
+// Arrow function
+const add = (a, b) => a + b;
+console.log(add(5, 3)); // 8
+```
+
+
+
+
 
 
 
