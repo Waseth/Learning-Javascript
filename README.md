@@ -1,4 +1,3 @@
-
 # Learning-Javascript
 
 In this repo, I'll be mainly sharing my **JavaScript learning progress** from a frontend development course by [freeCodeCamp on YouTube](https://www.youtube.com/watch?v=zJSY8tbf_ys).
