@@ -220,7 +220,7 @@ console.log(add(5, 3)); // 8
  ### Day 4 - Code challenges(Code wars)
 
 - Here is a link to a collection of all the 25 challenges:https://www.codewars.com/collections/lesson-5-practice-challenges-number-fullstackroadmap
-- Check out my solution in the CodeWars 25 challenges folder
+- Check out my solutions in the CodeWars 25 challenges folder
 
 
 
