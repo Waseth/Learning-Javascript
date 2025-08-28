@@ -222,6 +222,13 @@ console.log(add(5, 3)); // 8
 - Here is a link to a collection of all the 25 challenges:https://www.codewars.com/collections/lesson-5-practice-challenges-number-fullstackroadmap
 - Check out my solutions in the CodeWars 25 challenges folder
 
+---
+
+### Day 5
+
+- Okay I am through witj 25 challenges. I have to admit some of them were challenging but I realised looking up things from Google or Chatgpt isn't actually cheating. It is through looking them up that I understood most of the concepts especially the built-in Javascript methods.
+- Stay tuned for day 6 as I will be learning more about "BUILT-IN JAVASCRIPT UTILITY METHODS"
+
 
 
 
