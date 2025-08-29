@@ -226,9 +226,14 @@ console.log(add(5, 3)); // 8
 
 ### Day 5
 
-- Okay I am through witj 25 challenges. I have to admit some of them were challenging but I realised looking up things from Google or Chatgpt isn't actually cheating. It is through looking them up that I understood most of the concepts especially the built-in Javascript methods.
-- Stay tuned for day 6 as I will be learning more about "BUILT-IN JAVASCRIPT UTILITY METHODS"
+- I am through with the 25 challenges. I have to admit some of them were challenging but I realised looking up things from Google, Stack Overflow or Chatgpt isn't actually cheating. It is through looking them up that I understood most of the concepts especially the built-in Javascript methods.
+- Stay tuned for day 6 as I will be learning more about **"BUILT-IN JAVASCRIPT UTILITY METHODS"**
 
+### Day 6 (August 29th 2025)
 
+- I went through how to read Documentations specifically [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+- In this lesson the tutor really emphasized on understanding how callbacks work so I asked chatgpt and it gave me real life examples on how they work and I asked it to give me assignments which I did and they solidified my understanding on callbacks.You can check out my solutions inside the CallBackFunctions folder
+- Callbacks are functions passed into other functions to be executed later.
+They’re super important because many **built-in JavaScript utility methods** depend on them.
 
 
