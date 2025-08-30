@@ -236,4 +236,46 @@ console.log(add(5, 3)); // 8
 - Callbacks are functions passed into other functions to be executed later.
 They’re super important because many **built-in JavaScript utility methods** depend on them.
 
+### Day 7 (August 30th 2025)
+
+## Callback Functions
+**Why do we need callbacks?**
+- For **reusability** (same logic, different outcomes).
+- For **asynchronous programming** (wait for something to finish before running the next thing).
+
+---
+
+## JavaScript Primitives
+- **Primitive data type** → the most basic building blocks in JS (string, number, boolean, null, undefined, symbol, bigint).
+- Learned how the **`new` operator** works (e.g. `new Date()` creates a date object).
+
+---
+
+## JavaScript Dates
+- Basics of writing dates in JS (`new Date()` etc.).
+- Practiced built-in methods:
+  - `.getFullYear()`
+  - `.getMonth()`
+  - `.getDate()`
+  - `.getDay()`
+  - `.getHours()`
+
+---
+
+## Regular Expressions (Regex)
+- **What they mean:** a way to match text patterns.
+- Learned about **Identifiers** and **Quantifiers**.
+- Important note: I don’t need to memorize them, but I should know they exist and when to use them.
+
+---
+
+## JS String Methods
+- Explored useful built-in methods:
+  - `.replaceAll()`
+  - `.toUpperCase()`
+  - `.substring()`
+  - `.trim()`
+  - `.match()`
+
+
 

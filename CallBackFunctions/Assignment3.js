@@ -16,3 +16,16 @@ function collectPayment(order){
 }
 prepareOrder('Burger',[cookFood, serveFood, collectPayment]);
 
+// function myCallback(someNumber){
+//     return someNumber * 2;
+// }
+
+// function mainFunction(randomNumber, shouldCall, callBack){
+//     let result = randomNumber;
+//     if(shouldCall){
+//         result = callBack(randomNumber);
+//     }
+//     return result;
+// }
+// mainFunction(20, true, myCallback)
+
