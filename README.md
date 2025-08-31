@@ -417,6 +417,110 @@ console.log(sum); // 10
 
 ---
 
+## 🔹 Math Utilities
+JavaScript has a built-in `Math` object with tons of useful functions.
+It’s not a constructor → you don’t do `new Math()`. You just call its methods.
+
+```js
+console.log(Math.PI);          // 3.141592653589793
+console.log(Math.sqrt(16));    // 4
+console.log(Math.pow(2,3));    // 8
+console.log(Math.floor(4.7));  // 4
+console.log(Math.ceil(4.2));   // 5
+console.log(Math.random());    // random number between 0 and 1
+```
+
+**Use cases**: rounding numbers, generating randoms, math-heavy logic in games/animations.
+
+---
+
+## 🔹 JavaScript Errors
+
+Errors are part of coding. JavaScript gives you several built-in error types:
+
+* **`ReferenceError`** → using a variable that’s not defined.
+* **`TypeError`** → wrong type of operation (like calling something that’s not a function).
+* **`SyntaxError`** → typo or invalid code.
+* **`RangeError`** → number outside expected range.
+
+```js
+// ReferenceError
+console.log(x); // x is not defined
+
+// TypeError
+let num = 5;
+num(); // not a function
+```
+
+---
+
+## 🔹 Undefined, Null, and NaN
+
+* **`undefined`** → default value for variables that haven’t been assigned.
+* **`null`** → intentional empty value.
+* **`NaN`** → “Not-a-Number”, happens when math goes wrong.
+
+```js
+let a;
+console.log(a);       // undefined
+
+let b = null;
+console.log(b);       // null
+
+let c = "abc" * 3;
+console.log(c);       // NaN
+```
+
+**Note:**
+
+* `undefined` = JS doesn’t know the value yet.
+* `null` = dev *explicitly* said “this is empty”.
+* `NaN` = invalid math.
+
+---
+
+## 🔹 try...catch
+
+Error handling in JavaScript.
+`try` lets you test a block of code.
+`catch` lets you handle errors gracefully.
+
+```js
+try {
+  let result = JSON.parse("{ bad json }");
+  console.log(result);
+} catch (error) {
+  console.log("Something went wrong:", error.message);
+}
+```
+
+- Prevents your program from completely crashing.
+- Useful in async code (APIs, file reading, etc.).
+
+---
+
+## 🔹 Lodash Library (overview)
+
+Lodash is a utility library that makes working with arrays, objects, and functions easier.
+It gives shortcuts for things you’d normally write a lot of code for.
+
+```js
+// Example: _.chunk splits array into groups
+let _ = require("lodash");
+console.log(_.chunk([1,2,3,4,5], 2));
+// [[1,2], [3,4], [5]]
+
+// Example: _.debounce (rate-limit a function)
+const log = _.debounce(() => console.log("typing..."), 500);
+log(); log(); log(); // only logs once after 500ms
+```
+
+**I noted that:** You don’t *need* Lodash (modern JS has many built-ins),
+but it can make your life way easier for complex utilities.
+
+
+
+
 
 
 
