@@ -277,5 +277,146 @@ They’re super important because many **built-in JavaScript utility methods** d
   - `.trim()`
   - `.match()`
 
+---
+
+Got you 👍 — your snippet broke because the code blocks weren’t closed properly and the section headers were inside code fences.
+Here’s a **clean, valid Markdown README** with all array methods formatted properly:
+
+
+#  JavaScript Array Methods - Day 8(August 31st 2025)
+
+Arrays are one of the most important data structures in JS. I practiced the **most common and useful methods** that I’ll need almost every day.
+
+---
+
+## 🔹 push() / pop()
+- `push()` → adds item(s) at the end.
+- `pop()` → removes item from the end.
+
+```js
+let arr = [1, 2, 3];
+arr.push(4);      // [1,2,3,4]
+arr.pop();        // [1,2,3]
+```
+
+---
+
+## 🔹 shift() / unshift()
+
+* `shift()` → removes first item.
+* `unshift()` → adds item(s) at the start.
+
+```js
+let arr = [2, 3, 4];
+arr.unshift(1);   // [1,2,3,4]
+arr.shift();      // [2,3,4]
+```
+
+---
+
+## 🔹 slice()
+
+* Returns a **shallow copy** of part of the array (non-destructive).
+
+```js
+let arr = [10, 20, 30, 40];
+console.log(arr.slice(1,3)); // [20,30] (end index not included)
+console.log(arr);            // [10,20,30,40] (unchanged)
+```
+
+---
+
+## 🔹 splice()
+
+* Adds or removes elements **in place** (destructive).
+
+```js
+let arr = [1,2,3,4];
+// remove 2 elements starting at index 1
+arr.splice(1,2);
+console.log(arr); // [1,4]
+
+// insert at index 1
+arr.splice(1,0,2,3);
+console.log(arr); // [1,2,3,4]
+```
+
+---
+
+## 🔹 findIndex() / indexOf()
+
+* `indexOf(value)` → find index of value.
+* `findIndex(callback)` → find index based on condition.
+
+```js
+let arr = [5, 10, 15];
+
+console.log(arr.indexOf(10));          // 1
+console.log(arr.findIndex(n => n > 10)); // 2
+```
+
+---
+
+## 🔹 map()
+
+* Transforms each element → returns **new array**.
+
+```js
+let nums = [1,2,3];
+let doubled = nums.map(n => n*2);
+console.log(doubled); // [2,4,6]
+```
+
+---
+
+## 🔹 forEach()
+
+* Runs a function on each element, **no return value**.
+
+```js
+let nums = [1,2,3];
+nums.forEach(n => console.log(n*2));
+// logs: 2, 4, 6
+```
+
+---
+
+## 🔹 includes()
+
+* Checks if array has an element → returns `true`/`false`.
+
+```js
+let arr = ["apple","banana","orange"];
+console.log(arr.includes("banana")); // true
+console.log(arr.includes("grape"));  // false
+```
+
+---
+
+## 🔹 filter()
+
+* Returns new array with elements that **pass a condition**.
+
+```js
+let nums = [1,2,3,4,5];
+let evens = nums.filter(n => n % 2 === 0);
+console.log(evens); // [2,4]
+```
+
+---
+
+## 🔹 reduce()
+
+* Reduces array to a single value (sum, product, etc).
+
+```js
+let nums = [1,2,3,4];
+let sum = nums.reduce((acc, val) => acc + val, 0);
+console.log(sum); // 10
+```
+
+---
+
+
 
 
