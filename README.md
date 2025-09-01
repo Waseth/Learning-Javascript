@@ -518,6 +518,10 @@ log(); log(); log(); // only logs once after 500ms
 **I noted that:** You don’t *need* Lodash (modern JS has many built-ins),
 but it can make your life way easier for complex utilities.
 
+## LESSON 6 CODE CHALLENGES - Day 9(September 1st 2025)
+- Today I'll be solving these 10 code challenges on [Codewars](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript?collection=lesson-6-challenges-number-fullstackroadmap)
+- My solutions will be on the 10CodeChallenges folder.
+
 
 
 
