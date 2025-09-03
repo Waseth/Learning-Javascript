@@ -522,6 +522,8 @@ but it can make your life way easier for complex utilities.
 - Today I'll be solving these 10 code challenges on [Codewars](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript?collection=lesson-6-challenges-number-fullstackroadmap)
 - My solutions will be on the 10CodeChallenges folder.
 
+## LESSON 7 DOCUMENT OBJECT MODEL - (September 3rd  2025)
+
 
 
 
