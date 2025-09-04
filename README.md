@@ -522,7 +522,79 @@ but it can make your life way easier for complex utilities.
 - Today I'll be solving these 10 code challenges on [Codewars](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript?collection=lesson-6-challenges-number-fullstackroadmap)
 - My solutions will be on the 10CodeChallenges folder.
 
-## LESSON 7 DOCUMENT OBJECT MODEL - (September 3rd  2025)
+## Lesson 7: Document Object Model (DOM)
+September 3rd – 4th, 2025
+
+---
+
+## Challenge Recap
+I built a mini project where:
+- A button click triggers a **paragraph to pop up**.
+- Each paragraph shows up with a **random number** beside it.
+- Code lives inside the **P-pop-up folder**.
+
+This exercise helped me practice **basic DOM manipulation** and event handling.
+
+---
+
+## Key Learnings
+
+### 1. The DOM (Document Object Model)
+- The DOM is a **bridge** between HTML and JavaScript.
+- It represents the page as a tree of nodes (elements, attributes, text).
+- With the DOM, JavaScript can **read, modify, create, and remove elements** dynamically.
+
+---
+
+### 2. The Global `window` Object
+- `window` is the **global object** in browsers, so you usually don’t need to prefix it.
+- Examples of properties & methods:
+  - `alert("Hello")` → shows a pop-up box.
+  - `scrollBy(0, 200)` → scrolls the page vertically by 200px.
+  - `localStorage.setItem("key", "value")` → saves data in browser storage.
+  - `location.href` → gets or sets the current page URL.
+
+---
+
+### 3. Creating Elements Dynamically
+I practiced **DOM methods** that let me create new content on the fly:
+
+- `document.createElement("p")` → makes a new `<p>` element.
+- `document.createTextNode("Hello")` → creates a text node.
+- `element.appendChild(child)` → attaches one node to another.
+- `document.createAttribute("id")` → creates a new attribute.
+- `element.setAttribute("class", "highlight")` → sets attributes quickly.
+
+**Example:**
+```js
+const para = document.createElement("p");
+const text = document.createTextNode("I was added with JS!");
+para.appendChild(text);
+document.body.appendChild(para);
+```
+
+---
+
+### 4. Selecting Elements
+
+DOM selectors let me **target elements** for reading or manipulation:
+
+* `document.getElementById("idName")` → grabs one element by ID.
+* `document.getElementsByClassName("className")` → returns all with that class.
+* `document.querySelector("selector")` → grabs the first element that matches CSS selector.
+* `document.querySelectorAll("selector")` → grabs all matching elements (NodeList).
+
+**Example:**
+
+```js
+const button = document.querySelector("#myBtn");
+const allParagraphs = document.querySelectorAll("p");
+```
+
+
+
+
+
 
 
 
