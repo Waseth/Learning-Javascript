@@ -100,14 +100,13 @@ function revealAnswers() {
   } else if (!answer.hidden) {
     alert("The answer is already revealed!");
   } else {
-    answer.hidden = false; 
+    answer.hidden = false;
   }
 }
 
 
 /**
 * This function is used to get random data.  Don't worry about how it works, just know how to use it.  Usage is pre-filled in the functions above already, but here's an explanation of the function anyways.
-*
 * Valid arguments:
 *
 * 'memes', 'jokes', 'quotes', 'riddles'
