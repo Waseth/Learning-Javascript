@@ -719,7 +719,7 @@ document.querySelectorAll("p");       // NodeList
 # LESSON 9 (9th September 2025) – CSS crashcourse
 
 - Having already learned CSS over the past couple of weeks I won't get into the crash course but I'll just straight into the first challenge from [FRONTEND MENTOR](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
-- Check Out Pricing card challenge to see my solution, [here's the link ->](https://learning-javascript-two.vercel.app)
+- Check Out Pricing card challenge to see my solution, [here's the link](https://learning-javascript-two.vercel.app)
 
 
 
