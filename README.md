@@ -721,6 +721,9 @@ document.querySelectorAll("p");       // NodeList
 - Having already learned CSS over the past couple of weeks I won't get into the crash course but I'll just straight into the first challenge from [FRONTEND MENTOR](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)
 - Check Out Pricing card challenge to see my solution, [here's the link](https://learning-javascript-two.vercel.app)
 
+# 20th September 2025
+- Today comes the end of this repository's progress log. Moving forward, I'll be building real JS projects with the help of a few youtube tutorials to help me solidify my Javascript skills.
+
 
 
 

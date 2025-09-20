@@ -90,3 +90,8 @@ ul{
         flex: 1;
     }
 }
+@media (max-width: 330px){
+    #btn{
+        width: 100%;
+    }
+}
